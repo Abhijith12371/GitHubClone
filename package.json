@@ -1,0 +1,15 @@
+{
+  "name": "git2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon Backend/server.js",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node Backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
